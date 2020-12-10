@@ -7,15 +7,16 @@
 
 import UIKit
 import AVFoundation
+//import FirebaseStorage
 
 protocol VideoCollectionViewCellDelegate: AnyObject {
-    func didTapLikeButton(with model: VideoModel)
+    func didTapLikeButton(with model: Video)
     
-    func didTapProfileButton(with model: VideoModel)
+    func didTapProfileButton(with model: Video)
     
-    func didTapSbareButton(with model: VideoModel)
+    func didTapSbareButton(with model: Video)
     
-    func didTapCommentButton(with model: VideoModel)
+    func didTapCommentButton(with model: Video)
 }
 
 class VideoCollectionViewCell: UICollectionViewCell {
@@ -86,7 +87,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
     // Subviews
     var player: AVPlayer?
     
-    private var model: VideoModel?
+    private var model: Video?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -121,6 +122,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
     
     @objc private func didTapProfileButton() {
         guard let model = model else { return }
+        
         delegate?.didTapProfileButton(with: model)
     }
     
@@ -171,10 +173,10 @@ class VideoCollectionViewCell: UICollectionViewCell {
         
     }
     
-    public func configure(with model: VideoModel) {
+    public func configure(with model: Video) {
         self.model = model
         configureVideo()
-        
+    
         // labels
         captionLabel.text =  model.caption
         hashtagLabel.text = model.hashtags
@@ -187,13 +189,19 @@ class VideoCollectionViewCell: UICollectionViewCell {
             return
         }
         
+        // --- TODO: Download Videos from Firebase Storage ---
+        
         
         guard let path = Bundle.main.path(forResource: model.videoFileName, ofType: model.videoFileFormat) else {
             return
         }
         
-        
+        //player = AVPlayer(url: model.postURL)
         player = AVPlayer(url: URL(fileURLWithPath: path))
+        
+        //Storage.reference()
+        
+        // -----------------------------------------------------
         
         let playerView = AVPlayerLayer()
         playerView.player = player

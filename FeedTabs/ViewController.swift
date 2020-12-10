@@ -10,8 +10,10 @@ import CoreLocation
 import Firebase
 import FirebaseUI
 import GoogleSignIn
+import Lottie
 
 class ViewController: UIViewController {
+
     
     var authUI: FUIAuth!
     
@@ -20,6 +22,9 @@ class ViewController: UIViewController {
         
         authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
+        
+
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -45,7 +50,9 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
         performSegue(withIdentifier: "Show", sender: nil)
     }
-    @IBAction func signOutPressed(_ sender: UIBarButtonItem) {
+
+    
+    @IBAction func signOutButtonPressed(_ sender: UIButton) {
         do {
                 try authUI!.signOut()
                 print("^^^ Successfully signed out!")
@@ -54,6 +61,7 @@ class ViewController: UIViewController {
                 print("*** ERROR: Couldn't sign out")
             }
     }
+    
 }
 
 extension ViewController: FUIAuthDelegate {

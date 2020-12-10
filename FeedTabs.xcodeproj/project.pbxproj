@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		095062692579D38700E10EBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 095062682579D38700E10EBD /* GoogleService-Info.plist */; };
 		0950626D2579D71E00E10EBD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950626C2579D71E00E10EBD /* TabBarViewController.swift */; };
+		0950630F257EFD7E00E10EBD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950630E257EFD7E00E10EBD /* DetailViewController.swift */; };
 		0961189A25757B61006198C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961189925757B61006198C9 /* AppDelegate.swift */; };
 		0961189C25757B61006198C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961189B25757B61006198C9 /* SceneDelegate.swift */; };
 		0961189E25757B61006198C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0961189D25757B61006198C9 /* ViewController.swift */; };
@@ -22,12 +23,31 @@
 		096118DD257583B1006198C9 /* farming.mov in Resources */ = {isa = PBXBuildFile; fileRef = 096118DC257583B1006198C9 /* farming.mov */; };
 		096118E0257587D4006198C9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096118DF257587D4006198C9 /* ProfileViewController.swift */; };
 		096118E325759C51006198C9 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096118E225759C51006198C9 /* DiscoverViewController.swift */; };
+		715D616B25816818005A4419 /* lf30_editor_qxwqymve.json in Resources */ = {isa = PBXBuildFile; fileRef = 715D616A25816818005A4419 /* lf30_editor_qxwqymve.json */; };
+		715D616E258180CE005A4419 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D616D258180CE005A4419 /* Video.swift */; };
+		715FAD872581BAA40049BF95 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715FAD862581BAA40049BF95 /* Videos.swift */; };
+		715FADAA2581D4AA0049BF95 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715FADA92581D4AA0049BF95 /* StorageManager.swift */; };
+		71B2454C258135B2005D8AC0 /* 1446-bikingiscool.json in Resources */ = {isa = PBXBuildFile; fileRef = 71B2454B258135B2005D8AC0 /* 1446-bikingiscool.json */; };
+		71BA64502582DFB6002186B0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA644F2582DFB6002186B0 /* TableViewCell.swift */; };
+		71BA64532582DFD6002186B0 /* GoalListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA64522582DFD6002186B0 /* GoalListItem.swift */; };
+		71BA64562582DFF9002186B0 /* DetailTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA64552582DFF9002186B0 /* DetailTwoViewController.swift */; };
+		71BA64592582E00A002186B0 /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA64582582E00A002186B0 /* VideoPicker.swift */; };
+		71BA645C2582E01C002186B0 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA645B2582E01C002186B0 /* VideoView.swift */; };
+		71BDDC982582ADA700C2032A /* lf30_editor_hdqu5pit.json in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDC972582ADA700C2032A /* lf30_editor_hdqu5pit.json */; };
+		71BDDC9B2582C3CF00C2032A /* whitelock.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDC9A2582C3CF00C2032A /* whitelock.png */; };
+		71BDDC9E2582C77500C2032A /* movie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDC9D2582C77500C2032A /* movie.jpg */; };
+		71BDDCA12582C7E400C2032A /* whitecamera-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDCA02582C7E400C2032A /* whitecamera-removebg-preview.png */; };
+		71BDDCA42582C88B00C2032A /* imageedit_11_6827755759.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDCA32582C88B00C2032A /* imageedit_11_6827755759.png */; };
+		71BDDCA72582CA7800C2032A /* imageedit_15_3685238826.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDCA62582CA7700C2032A /* imageedit_15_3685238826.jpg */; };
+		71BDDCAA2582CB7000C2032A /* imageedit_19_4887464843.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDCA92582CB7000C2032A /* imageedit_19_4887464843.jpg */; };
+		71BDDCAD2582CC2800C2032A /* pleasework.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BDDCAC2582CC2800C2032A /* pleasework.png */; };
 		FBA855518853E4782D5671BA /* Pods_FeedTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB21FE4509E03D625C1EF5E /* Pods_FeedTabs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		095062682579D38700E10EBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0950626C2579D71E00E10EBD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0950630E257EFD7E00E10EBD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0961189625757B61006198C9 /* FeedTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0961189925757B61006198C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0961189B25757B61006198C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +65,24 @@
 		096118E225759C51006198C9 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		460169CE6CACEF6C2107665A /* Pods-FeedTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedTabs.release.xcconfig"; path = "Target Support Files/Pods-FeedTabs/Pods-FeedTabs.release.xcconfig"; sourceTree = "<group>"; };
 		56635283D1902CF171418260 /* Pods-FeedTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedTabs.debug.xcconfig"; path = "Target Support Files/Pods-FeedTabs/Pods-FeedTabs.debug.xcconfig"; sourceTree = "<group>"; };
+		715D616A25816818005A4419 /* lf30_editor_qxwqymve.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lf30_editor_qxwqymve.json; sourceTree = "<group>"; };
+		715D616D258180CE005A4419 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		715FAD862581BAA40049BF95 /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		715FADA92581D4AA0049BF95 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		71B2454B258135B2005D8AC0 /* 1446-bikingiscool.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1446-bikingiscool.json"; sourceTree = "<group>"; };
+		71BA644F2582DFB6002186B0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		71BA64522582DFD6002186B0 /* GoalListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalListItem.swift; sourceTree = "<group>"; };
+		71BA64552582DFF9002186B0 /* DetailTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTwoViewController.swift; sourceTree = "<group>"; };
+		71BA64582582E00A002186B0 /* VideoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		71BA645B2582E01C002186B0 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		71BDDC972582ADA700C2032A /* lf30_editor_hdqu5pit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lf30_editor_hdqu5pit.json; sourceTree = "<group>"; };
+		71BDDC9A2582C3CF00C2032A /* whitelock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitelock.png; sourceTree = "<group>"; };
+		71BDDC9D2582C77500C2032A /* movie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie.jpg; sourceTree = "<group>"; };
+		71BDDCA02582C7E400C2032A /* whitecamera-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitecamera-removebg-preview.png"; sourceTree = "<group>"; };
+		71BDDCA32582C88B00C2032A /* imageedit_11_6827755759.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageedit_11_6827755759.png; sourceTree = "<group>"; };
+		71BDDCA62582CA7700C2032A /* imageedit_15_3685238826.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageedit_15_3685238826.jpg; sourceTree = "<group>"; };
+		71BDDCA92582CB7000C2032A /* imageedit_19_4887464843.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageedit_19_4887464843.jpg; sourceTree = "<group>"; };
+		71BDDCAC2582CC2800C2032A /* pleasework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pleasework.png; sourceTree = "<group>"; };
 		8BB21FE4509E03D625C1EF5E /* Pods_FeedTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +119,16 @@
 		0961189825757B61006198C9 /* FeedTabs */ = {
 			isa = PBXGroup;
 			children = (
+				71B2454B258135B2005D8AC0 /* 1446-bikingiscool.json */,
+				715D616A25816818005A4419 /* lf30_editor_qxwqymve.json */,
+				71BDDC9D2582C77500C2032A /* movie.jpg */,
+				71BDDCA32582C88B00C2032A /* imageedit_11_6827755759.png */,
+				71BDDCA92582CB7000C2032A /* imageedit_19_4887464843.jpg */,
+				71BDDCAC2582CC2800C2032A /* pleasework.png */,
+				71BDDCA62582CA7700C2032A /* imageedit_15_3685238826.jpg */,
+				71BDDCA02582C7E400C2032A /* whitecamera-removebg-preview.png */,
+				71BDDC9A2582C3CF00C2032A /* whitelock.png */,
+				71BDDC972582ADA700C2032A /* lf30_editor_hdqu5pit.json */,
 				096118D62575839F006198C9 /* compost.mov */,
 				096118D9257583AA006198C9 /* recycle.mov */,
 				096118DC257583B1006198C9 /* farming.mov */,
@@ -89,14 +137,23 @@
 				0961189D25757B61006198C9 /* ViewController.swift */,
 				0950626C2579D71E00E10EBD /* TabBarViewController.swift */,
 				096118D02575831D006198C9 /* VideoViewController.swift */,
+				715D616D258180CE005A4419 /* Video.swift */,
+				715FAD862581BAA40049BF95 /* Videos.swift */,
 				096118DF257587D4006198C9 /* ProfileViewController.swift */,
 				096118E225759C51006198C9 /* DiscoverViewController.swift */,
+				0950630E257EFD7E00E10EBD /* DetailViewController.swift */,
 				0961189F25757B61006198C9 /* Main.storyboard */,
 				096118A225757B64006198C9 /* Assets.xcassets */,
 				096118A425757B64006198C9 /* LaunchScreen.storyboard */,
 				096118A725757B64006198C9 /* Info.plist */,
 				095062682579D38700E10EBD /* GoogleService-Info.plist */,
 				096118D325758336006198C9 /* VideoCollectionViewCell.swift */,
+				715FADA92581D4AA0049BF95 /* StorageManager.swift */,
+				71BA644F2582DFB6002186B0 /* TableViewCell.swift */,
+				71BA64522582DFD6002186B0 /* GoalListItem.swift */,
+				71BA64552582DFF9002186B0 /* DetailTwoViewController.swift */,
+				71BA64582582E00A002186B0 /* VideoPicker.swift */,
+				71BA645B2582E01C002186B0 /* VideoView.swift */,
 			);
 			path = FeedTabs;
 			sourceTree = "<group>";
@@ -178,13 +235,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71BDDCA42582C88B00C2032A /* imageedit_11_6827755759.png in Resources */,
+				71BDDCA12582C7E400C2032A /* whitecamera-removebg-preview.png in Resources */,
+				71BDDC9B2582C3CF00C2032A /* whitelock.png in Resources */,
+				71BDDCAA2582CB7000C2032A /* imageedit_19_4887464843.jpg in Resources */,
 				096118D72575839F006198C9 /* compost.mov in Resources */,
 				096118DD257583B1006198C9 /* farming.mov in Resources */,
 				096118DA257583AA006198C9 /* recycle.mov in Resources */,
 				096118A625757B64006198C9 /* LaunchScreen.storyboard in Resources */,
 				096118A325757B64006198C9 /* Assets.xcassets in Resources */,
 				096118A125757B61006198C9 /* Main.storyboard in Resources */,
+				715D616B25816818005A4419 /* lf30_editor_qxwqymve.json in Resources */,
+				71BDDCAD2582CC2800C2032A /* pleasework.png in Resources */,
+				71BDDC9E2582C77500C2032A /* movie.jpg in Resources */,
+				71BDDC982582ADA700C2032A /* lf30_editor_hdqu5pit.json in Resources */,
 				095062692579D38700E10EBD /* GoogleService-Info.plist in Resources */,
+				71B2454C258135B2005D8AC0 /* 1446-bikingiscool.json in Resources */,
+				71BDDCA72582CA7800C2032A /* imageedit_15_3685238826.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +321,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71BA64562582DFF9002186B0 /* DetailTwoViewController.swift in Sources */,
+				71BA64592582E00A002186B0 /* VideoPicker.swift in Sources */,
+				71BA64502582DFB6002186B0 /* TableViewCell.swift in Sources */,
+				71BA64532582DFD6002186B0 /* GoalListItem.swift in Sources */,
+				0950630F257EFD7E00E10EBD /* DetailViewController.swift in Sources */,
+				71BA645C2582E01C002186B0 /* VideoView.swift in Sources */,
 				0950626D2579D71E00E10EBD /* TabBarViewController.swift in Sources */,
 				096118E0257587D4006198C9 /* ProfileViewController.swift in Sources */,
+				715FADAA2581D4AA0049BF95 /* StorageManager.swift in Sources */,
 				0961189E25757B61006198C9 /* ViewController.swift in Sources */,
 				096118E325759C51006198C9 /* DiscoverViewController.swift in Sources */,
 				0961189A25757B61006198C9 /* AppDelegate.swift in Sources */,
 				096118D12575831D006198C9 /* VideoViewController.swift in Sources */,
 				096118D425758336006198C9 /* VideoCollectionViewCell.swift in Sources */,
 				0961189C25757B61006198C9 /* SceneDelegate.swift in Sources */,
+				715D616E258180CE005A4419 /* Video.swift in Sources */,
+				715FAD872581BAA40049BF95 /* Videos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
