@@ -18,7 +18,7 @@ Ability to Add Goals <br/>
 Log-In Screen with Firebase <br/>
 Tab Bar ViewController Set-up and Navigation <br/>
 Welcome Page <br/>
-Ability to Access Video Library <br/>
+Ability to Access Video Library, Alerts <br/>
 Custom TableViewCells
 
 # John
