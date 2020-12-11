@@ -9,3 +9,22 @@ Second, run command 'pod install'. Afterwards, open the app in FeedTabs.xcworksp
 Third, build and run the app. You may notice three errors: two will be in file LongPressReorder. **Click fix if they have the option too**. If not, then ignore it. The third error will most likely be that 'Firebase module not found'. This can also be ignored.
 
 After these fixes, build and run again and the app should run.
+
+# Contributions
+
+#Alvin
+Created Profile Page with DetailViewControllers
+Ability to Add Goals
+Log-In Screen
+Tab Bar ViewController Set-up and Navigation
+Welcome Page
+Ability to Access Video Library
+Custom TableViewCells
+
+#John
+Firebase/Fire Storage Implementation
+Video Feed using CollectionView
+Favorites Page
+Progress Bar Animation with Lottie
+Movable TableView Cells with Long Press using LongPressReorder
+
