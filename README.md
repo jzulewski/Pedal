@@ -28,3 +28,7 @@ Favorites Page <br/>
 Progress Bar Animation with Lottie <br/>
 Movable TableView Cells with Long Press using LongPressReorder
 
+# Future Improvements
+Have Videos stored Firestore Storage
+Make Progress Bar Dynamic
+With Enough Validations the Next Goal Opens
