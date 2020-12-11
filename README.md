@@ -12,19 +12,19 @@ After these fixes, build and run again and the app should run.
 
 # Contributions
 
-#Alvin
-Created Profile Page with DetailViewControllers
-Ability to Add Goals
-Log-In Screen
-Tab Bar ViewController Set-up and Navigation
-Welcome Page
-Ability to Access Video Library
+# Alvin
+Created Profile Page with DetailViewControllers <br/>
+Ability to Add Goals <br/>
+Log-In Screen with Firebase <br/>
+Tab Bar ViewController Set-up and Navigation <br/>
+Welcome Page <br/>
+Ability to Access Video Library <br/>
 Custom TableViewCells
 
-#John
-Firebase/Fire Storage Implementation
-Video Feed using CollectionView
-Favorites Page
-Progress Bar Animation with Lottie
+# John
+Firebase/Fire Storage Implementation <br/>
+Video Feed using CollectionView <br/>
+Favorites Page <br/>
+Progress Bar Animation with Lottie <br/>
 Movable TableView Cells with Long Press using LongPressReorder
 
